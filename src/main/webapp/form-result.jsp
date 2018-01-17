@@ -7,10 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form id="login" method="POST"  action="form-result.jsp">
-USERNAME: <input type="text" name="username"><br/>
-PASSWORD: <input type="text" name="password"><br/>
-<input type="submit" value="Login">
-</form>    
+<%=request.getParameter("username") %><br/>
+<%=request.getParameter("password") %><br/>
 </body>
 </html>
